@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SignedIn, SignOutButton, OrganizationSwitcher } from "@clerk/nextjs";
 import { usePathname, useRouter } from "next/navigation";
 
-function leftSidebar() {
+function LeftSidebar() {
   const pathname = usePathname();
   const router = useRouter();
 
@@ -54,4 +54,4 @@ function leftSidebar() {
     </section>
   );
 }
-export default leftSidebar;
+export default LeftSidebar;
