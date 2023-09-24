@@ -42,7 +42,7 @@ function LeftSidebar() {
             <div className="flex cursor-pointer gap-4 p-4">
               <Image
                 src="/assets/logout.svg"
-                alt="lougout"
+                alt="logout"
                 width={24}
                 height={24}
               />
